@@ -25,7 +25,7 @@ The program sets up
 Example:
     
     
-    ./xbeesetremotebaud.py -p ttyUSB1 -b="9600,8,N,1" -r="XBEECOM12345" -rb="19200,8,N,1" -s 
+    ./setremotexbeebaud.py -p ttyUSB1 -b="9600,8,N,1" -r="XBEECOM12345" -rb="19200,8,N,1" -s 
     
 
 \r\n
