@@ -32,7 +32,7 @@ The program sets up
 Example:
     
     Use default address FFFE for AG command
-    ./xbeesetremotedhdl.py -p ttyUSB1 -b="9600,8,N,1" -r="XBEECOM12345" -s 
+    ./setremotexbeedhdl.py -p ttyUSB1 -b="9600,8,N,1" -r="XBEECOM12345" -s 
 
 \r\n
 '''
