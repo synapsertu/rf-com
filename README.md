@@ -24,7 +24,7 @@ This script re-configures the local XBEE baud rate settings
 
 This script sets the local XBEE's target/destination COM module 
 
-```xbeesetremotebaud.py```
+```setremotexbeebaud.py```
 
 This script performs the following steps:
 - Checks if target node name is known, if not asks to re-run discovery process
@@ -33,7 +33,7 @@ This script performs the following steps:
   power cycles
 - Applies changes
 
-```xbeesetremotedhdl.py```
+```setremotexbeedhdl.py```
 
 This script performs the following steps:
 - Looks up local XBEE SH/SL address
