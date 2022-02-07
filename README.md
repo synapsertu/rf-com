@@ -60,7 +60,7 @@ cd ../..
 mkdir xbeecom
 cd xbeecom
 wget https://github.com/synapsertu/rf-com/archive/main.zip
-unzip master.zip && cd python-xbee-master
+unzip main.zip && cd rf-com-main/
 cd XBEECOM-master
 chmod +x *.py
 ```
