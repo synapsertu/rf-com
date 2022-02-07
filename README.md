@@ -51,17 +51,19 @@ This script performs the following steps:
 
 
 ```
+# Install support library
 apt-get update && apt-get install python-serial python-setuptools
 mkdir pythonxbee
 cd pythonxbee
 wget https://github.com/synapsertu/python-xbee/archive/master.zip
 unzip master.zip && cd python-xbee-master && python setup.py install
 cd ../..
+
+# Install main apps
 mkdir xbeecom
 cd xbeecom
 wget https://github.com/synapsertu/rf-com/archive/main.zip
 unzip main.zip && cd rf-com-main
-cd XBEECOM-master
 chmod +x *.py
 ```
 
